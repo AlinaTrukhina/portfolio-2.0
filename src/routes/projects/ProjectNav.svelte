@@ -31,6 +31,9 @@
     <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
       <Nav class="ms-auto" navbar>
         <NavItem>
+          <NavLink href="/projects/craigslist-web-scraper">CLI Web Scraper</NavLink>
+        </NavItem>
+        <NavItem>
           <NavLink href="/projects/foraging-finds">Foraging Finds</NavLink>
         </NavItem>
         <NavItem>

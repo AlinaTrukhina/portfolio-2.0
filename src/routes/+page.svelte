@@ -140,6 +140,11 @@ article {
     flex-direction: row;
     align-items: center;
 }
+
+.social-links p {
+    margin-top: 1em;
+}
+
 .social-links img {
     width: 2em;
     height: 2em;

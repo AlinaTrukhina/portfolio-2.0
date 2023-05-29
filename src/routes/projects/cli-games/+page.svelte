@@ -33,6 +33,7 @@
 		<img src={color_game} alt="color game" />
 		<h4>Blackjack</h4>
 		<img src={blackjack} alt="blackjack game" />
+	</div>
 
 	<h2 class="techs-used">Technologies Used</h2>
     <ul>
