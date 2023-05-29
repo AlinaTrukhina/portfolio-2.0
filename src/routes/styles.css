@@ -54,6 +54,10 @@ video {
     margin: 0.2em;
 }
 
+.container-fluid {
+    margin-right: 1em;
+}
+
 /* Media query */
 /* For mobile phones: */
 [class*="heading-photo"] {

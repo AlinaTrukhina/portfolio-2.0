@@ -1,7 +1,9 @@
 <script>
     import Button from './Button.svelte';
 
-	import alinaheadshot from '$lib/images/alinaheadshot.jpg';
+
+    import alinaheadshot from '../lib/images/alinaheadshot.jpg'
+	// import alinaheadshot from '$lib/images/alinaheadshot.jpg';
     import github from '$lib/images/github.svg';
     import linkedin from '$lib/images/linkedin.svg';
     import csharp from '$lib/images/csharp.svg';
@@ -90,7 +92,7 @@
 
 <style>
 :global(article) {
-    background-color: var(--color-theme-blue);
+    background-color: var(--color-theme-darkblue);
 }
 
 :global(article.light-mode) {

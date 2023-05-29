@@ -23,7 +23,7 @@
       
 </script>
 
-<Styles />
+
 
 <Navbar color="dark" dark expand="md">
     <NavbarBrand href="/">Project List</NavbarBrand>
@@ -54,24 +54,7 @@
 
 @import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
 
-nav {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-theme-blue);
-}
 
-nav a {
-    display: block;
-    min-height: 2em;
-    vertical-align: center;
-    border: 1px var(--color-theme-darkblue) solid;
-    border-radius: 5px;
-    color: var(--color-theme-pink);
-    font-weight: 600;
-    text-decoration: none;
-    padding: 0.5em;
-    overflow-wrap: break-word;
-}
 
 :global(main .light-mode) {
     background-color: var(--color-theme-blue);
