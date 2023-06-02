@@ -17,11 +17,11 @@
     <nav class="header-links">
         <ul>
             <li>
-                <a href="/">About</a>
+                <a class="header-link" href="/">About</a>
             </li>
             <li>|</li>
             <li>
-                <a href="/projects">Projects</a>
+                <a class="header-link" href="/projects">Projects</a>
             </li>
         </ul>
     </nav>
@@ -49,29 +49,17 @@ section {
 		color: #22153c;
 }
 
-:global(h1, h2, h3, h4, h5, h6) {
+h1, h2 {
     color: var(--color-theme-pink);
+    padding-top: 0.5em;
 }
-
-:global(h1.light-mode, h2.light-mode, h3.light-mode, h4.light-mode, h5.light-mode, h6.light-mode) {
-    color: var(--color-theme-darkblue);
-}
-
 
 :global(p) {
     color: var(--color-theme-pink);
 }
 
-:global(p.light-mode) {
-    color: var(--color-theme-darkblue);
-}
-
 :global(pre) {
     color: var(--color-theme-pink);
-}
-
-:global(pre.light-mode) {
-    color: var(--color-theme-darkblue);
 }
 
 .darkbutton {
@@ -121,6 +109,10 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.header-link {
+    padding-top: 0.5em;
 }
 
 </style>

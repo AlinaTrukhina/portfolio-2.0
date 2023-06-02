@@ -7,10 +7,6 @@
     Nav,
     NavItem,
     NavLink,
-    Dropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem
   } from 'sveltestrap';
 
 	import { Styles } from 'sveltestrap';
@@ -24,14 +20,13 @@
 </script>
 
 
-
-<Navbar color="dark" dark expand="md">
-    <NavbarBrand href="/">Project List</NavbarBrand>
-    <NavbarToggler on:click={() => (isOpen = !isOpen)} />
+<Navbar dark expand="md" style="background-color: var(--color-theme-darkblue)">
+    <NavbarBrand href="/projects" style="color: var(--color-theme-2)">Project List</NavbarBrand>
+    <NavbarToggler on:click={() => (isOpen = !isOpen)} style="color: var(--color-theme-2)"/>
     <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
       <Nav class="ms-auto" navbar>
         <NavItem>
-          <NavLink href="/projects/craigslist-web-scraper">CLI Web Scraper</NavLink>
+          <NavLink class="navlink" href="/projects/craigslist-web-scraper">CLI Web Scraper</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/projects/foraging-finds">Foraging Finds</NavLink>
@@ -52,15 +47,12 @@
     </Collapse>
 </Navbar>
 
-
 <style>
 
-@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
+/* @import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'; */
 
-
-
-:global(main .light-mode) {
-    background-color: var(--color-theme-blue);
-}
+/* .navlink {
+  color: var(--color-theme-2-light);
+} */
 
 </style>

@@ -3,7 +3,7 @@
 
 </script>
 
-<h1>Projects</h1>
+<!-- <h1>Projects</h1> -->
 <div class="projects">
 
     <ProjectNav/>

@@ -1,6 +1,7 @@
 :root {
     --color-theme-1: #ff4000be;
 	--color-theme-2: #40b3ff;
+    --color-theme-2-light: #40b3ffc2;
     --color-theme-darkblue: #16213E;
     --color-theme-blue: #0F3460;
     --color-theme-purple: #533483;
@@ -8,6 +9,10 @@
 }
 
 /* #ff3e00 */
+
+html {
+    background-color: var(--color-theme-blue);
+}
 
 body {
 	min-height: 100vh;
@@ -23,12 +28,9 @@ main {
     min-width: 100vw;
 }
 
-:global(h1, h2, h3, h4, h5) {
+h1, h2, h3, h4, h5 {
     color: var(--color-theme-pink);
-}
-
-:global(h1.light-mode, h2.light-mode, h3.light-mode, h4.light-mode, h5.light-mode) {
-    color: var(--color-theme-darkblue);
+    /* padding-top: 0.5em; */
 }
 
 p, pre, li, a, footer {
