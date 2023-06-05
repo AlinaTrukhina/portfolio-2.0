@@ -50,11 +50,11 @@
     <h3>Duration: 2 Week Sprint</h3>
 
     <p>
-Finding plants or mushrooms when you are out foraging is a joy! 
+Finding plants or mushrooms when you are out foraging is a joy!
 However, remembering the spot you found that beautiful flush of chanterelles some time after can be frustrating. 
     </p>
     <p>
-This app lets foragers save their finds on a map along with a photo and a short journal entry. 
+This app lets foragers save their finds on a map along with a photo and a short journal entry.   
     </p>
     <p>
 Users can also explore other users finds or search for a specific mushroom on a map, and leave a comment on each entry. 
