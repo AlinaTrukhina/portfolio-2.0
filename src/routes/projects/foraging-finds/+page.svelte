@@ -42,7 +42,8 @@
     <h1>Foraging Finds</h1>
 
     <h2 class=website-link>
-        <a href="https://foraging-finds.alina-tr.com/" target="_blank" rel="noreferrer">
+        <!-- <a href="https://foraging-finds.alina-tr.com/" target="_blank" rel="noreferrer"> -->
+            <a href="https://foraging-finds.herokuapp.com/" target="_blank" rel="noreferrer"></a>
         Foraging Finds website
         </a>
     </h2>
